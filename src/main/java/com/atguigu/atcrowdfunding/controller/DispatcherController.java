@@ -20,6 +20,7 @@ public class DispatcherController {
 	private UserService userService;
    @RequestMapping("/login")
    public String login() {
+	   //这是一个登陆
 	   return "login";
    }
    /*
